@@ -3,5 +3,6 @@
      SPDX-License-Identifier: Apache-2.0
 -->
 <config>
+    <overlay package="com.android.providers.settings.overlay.venus" mutable="false" enabled="true" />
     <overlay package="com.android.wifi.resources.overlay.venus" mutable="false" enabled="true" />
 </config>
