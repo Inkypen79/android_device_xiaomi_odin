@@ -1,5 +1,9 @@
 # Bluetooth
 bluetooth.device.default_name=MIX 4
 
+# Fingerprint
+persist.vendor.fingerprint.type=udfps_optical
+persist.vendor.fingerprint.sensor_location=540|1800|100
+
 # USB
 vendor.usb.product_string=MIX 4
