@@ -10,3 +10,6 @@ include device/xiaomi/sm8350-common/BoardConfigCommon.mk
 
 # Kernel
 TARGET_KERNEL_CONFIG += vendor/odin_QGKI.config
+
+# Partitions
+BOARD_DTBOIMG_PARTITION_SIZE := 25165824
