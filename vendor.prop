@@ -1,2 +1,5 @@
 # Bluetooth
 bluetooth.device.default_name=MIX 4
+
+# USB
+vendor.usb.product_string=MIX 4
