@@ -7,3 +7,6 @@ DEVICE_PATH := device/xiaomi/odin
 
 # Inherit from sm8350-common
 include device/xiaomi/sm8350-common/BoardConfigCommon.mk
+
+# Kernel
+TARGET_KERNEL_CONFIG += vendor/odin_QGKI.config
