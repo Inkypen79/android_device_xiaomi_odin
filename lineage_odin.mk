@@ -17,3 +17,7 @@ PRODUCT_MODEL := 2106118C
 PRODUCT_NAME := lineage_odin
 
 PRODUCT_GMS_CLIENTID_BASE := android-xiaomi
+
+PRODUCT_BUILD_PROP_OVERRIDES += \
+    DeviceProduct=odin \
+    SystemName=odin_cn
