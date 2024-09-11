@@ -1,5 +1,9 @@
 # All unpinned blobs below are extracted from odin OS1.0.4.0.UKMCNXM
 
+# Current blobs with ELF checks disabled:
+# libqllengine.so depends on intrinsic symbols which changed namespaces such as __fixunstfdi which is difficult to shim
+# libvideoNS depends on intrinsic symbols which changed namespaces such as __aeabi_dcmpeq, __aeabi_dcmpge, which are difficult to shim
+
 # ACDB
 vendor/etc/acdbdata/Tutu/Tutu_Bluetooth_cal.acdb
 vendor/etc/acdbdata/Tutu/Tutu_General_cal.acdb
@@ -98,7 +102,7 @@ vendor/lib/libresampler.so
 vendor/lib/libsndmonitor.so
 vendor/lib/libspkrprot.so
 vendor/lib/libssrec.so
-vendor/lib/libvideoNS.so
+vendor/lib/libvideoNS.so;DISABLE_CHECKELF
 
 # Audio firmware
 vendor/firmware/cs35l41-dsp1-diag-revb2.wmfw
@@ -249,7 +253,7 @@ vendor/lib64/libopestriping.so
 vendor/lib64/libos.so
 vendor/lib64/libportrait_blur.so
 vendor/lib64/libqll10.so
-vendor/lib64/libqllengine.so
+vendor/lib64/libqllengine.so;DISABLE_CHECKELF
 vendor/lib64/librelight_only.so
 vendor/lib64/libremosaic_wrapper.so
 vendor/lib64/libremosaichvx_stub.so
