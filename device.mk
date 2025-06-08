@@ -8,6 +8,7 @@ $(call inherit-product, device/xiaomi/sm8350-common/common.mk)
 
 # Overlays
 PRODUCT_PACKAGES += \
+    FrameworkOverlayVenus \
     SettingsProviderOverlayVenus \
     WifiOverlayVenus
 
