@@ -3,6 +3,7 @@
      SPDX-License-Identifier: Apache-2.0
 -->
 <config>
+    <overlay package="android.overlay.odin" mutable="false" enabled="true" />
     <overlay package="com.android.providers.settings.overlay.odin" mutable="false" enabled="true" />
     <overlay package="com.android.wifi.resources.overlay.odin" mutable="false" enabled="true" />
 </config>
