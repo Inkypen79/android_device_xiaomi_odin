@@ -19,5 +19,7 @@ PRODUCT_NAME := lineage_odin
 PRODUCT_GMS_CLIENTID_BASE := android-xiaomi
 
 PRODUCT_BUILD_PROP_OVERRIDES += \
+    BuildDesc="odin_cn-user 14 UKQ1.231207.002 V816.0.4.0.UKMCNXM release-keys" \
+    BuildFingerprint=Xiaomi/odin_cn/odin:14/UKQ1.231207.002/V816.0.4.0.UKMCNXM:user/release-keys \
     DeviceProduct=odin \
     SystemName=odin_cn
