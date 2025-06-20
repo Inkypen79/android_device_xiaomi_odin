@@ -10,6 +10,7 @@ $(call inherit-product, device/xiaomi/sm8350-common/common.mk)
 PRODUCT_PACKAGES += \
     FrameworkOverlayOdin \
     SettingsProviderOverlayOdin \
+    SystemUIOverlayOdin \
     WifiOverlayOdin
 
 PRODUCT_COPY_FILES += \
