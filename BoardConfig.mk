@@ -3,13 +3,13 @@
 # SPDX-License-Identifier: Apache-2.0
 #
 
-DEVICE_PATH := device/xiaomi/venus
+DEVICE_PATH := device/xiaomi/odin
 
 # Inherit from sm8350-common
 include device/xiaomi/sm8350-common/BoardConfigCommon.mk
 
 # Board
-TARGET_BOOTLOADER_BOARD_NAME := venus
+TARGET_BOOTLOADER_BOARD_NAME := odin
 
 # HIDL
 DEVICE_MANIFEST_FILE += $(DEVICE_PATH)/hidl/manifest.xml
@@ -18,7 +18,7 @@ DEVICE_MANIFEST_FILE += $(DEVICE_PATH)/hidl/manifest.xml
 TARGET_SCREEN_DENSITY := 560
 
 # Kernel
-TARGET_KERNEL_CONFIG += vendor/venus_QGKI.config
+TARGET_KERNEL_CONFIG += vendor/odin_QGKI.config
 
 # Kernel modules
 BOOT_KERNEL_MODULES := \
@@ -43,4 +43,4 @@ TARGET_ODM_PROP += $(DEVICE_PATH)/odm.prop
 TARGET_VENDOR_PROP += $(DEVICE_PATH)/vendor.prop
 
 # Inherit the proprietary files
-include vendor/xiaomi/venus/BoardConfigVendor.mk
+include vendor/xiaomi/odin/BoardConfigVendor.mk

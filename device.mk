@@ -32,4 +32,4 @@ PRODUCT_COPY_FILES += \
     $(LOCAL_PATH)/sku/build_CN.prop:$(TARGET_COPY_OUT_ODM)/etc/build_CN.prop
 
 # Call the proprietary setup
-$(call inherit-product, vendor/xiaomi/venus/venus-vendor.mk)
+$(call inherit-product, vendor/xiaomi/odin/odin-vendor.mk)

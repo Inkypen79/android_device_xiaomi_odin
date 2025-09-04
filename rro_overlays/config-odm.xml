@@ -3,10 +3,10 @@
      SPDX-License-Identifier: Apache-2.0
 -->
 <config>
-    <overlay package="android.overlay.venus" mutable="false" enabled="true" />
+    <overlay package="android.overlay.odin" mutable="false" enabled="true" />
     <overlay package="android.overlay.sm8350.udfps" mutable="false" enabled="true" />
-    <overlay package="com.android.settings.overlay.venus" mutable="false" enabled="true" />
-    <overlay package="com.android.providers.settings.overlay.venus" mutable="false" enabled="true" />
-    <overlay package="com.android.systemui.overlay.venus" mutable="false" enabled="true" />
-    <overlay package="com.android.wifi.resources.overlay.venus" mutable="false" enabled="true" />
+    <overlay package="com.android.settings.overlay.odin" mutable="false" enabled="true" />
+    <overlay package="com.android.providers.settings.overlay.odin" mutable="false" enabled="true" />
+    <overlay package="com.android.systemui.overlay.odin" mutable="false" enabled="true" />
+    <overlay package="com.android.wifi.resources.overlay.odin" mutable="false" enabled="true" />
 </config>

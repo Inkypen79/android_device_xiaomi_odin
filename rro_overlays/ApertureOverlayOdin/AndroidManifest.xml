@@ -4,6 +4,8 @@
      SPDX-License-Identifier: Apache-2.0
 -->
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
-    package="com.android.settings.overlay.venus">
-    <overlay android:targetPackage="com.android.settings" />
+    package="org.lineageos.aperture.odin">
+    <overlay
+        android:isStatic="true"
+        android:targetPackage="org.lineageos.aperture" />
 </manifest>

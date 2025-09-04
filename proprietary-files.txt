@@ -1,4 +1,4 @@
-# All unpinned blobs below are extracted from venus OS2.0.2.0.UKBMIXM
+# All unpinned blobs below are extracted from odin OS1.0.4.0.UKMCNXM
 
 # Current blobs with ELF checks disabled:
 # libqllengine.so depends on intrinsic symbols which changed namespaces such as __fixunstfdi which is difficult to shim
